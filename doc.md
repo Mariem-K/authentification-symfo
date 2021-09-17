@@ -6,6 +6,7 @@
 | id | INT | PRIMARY KEY, NOT NULL, UNSIGNED, AUTO_INCREMENT | The user's id |
 | username | VARCHAR(180) | NOT NULL | The user's username |
 | password | VARCHAR(255) | NOT NULL | The user's password |
+| roles | longtext | NOT NULL | The user's role (by default, user has a role_user) |
 
 ## Liste de routes :
 
